@@ -9,7 +9,7 @@ This repository contains the end-to-end quantitative data sprint files:
 * **`fund_scorecard.csv`**: Automated evaluation matrix scoring all funds across a standardized 0-100 system.
 * **`alpha_beta.csv`**: Target regression export showcasing underlying portfolio beta dynamics and alpha generation.
 * **`benchmark_comparison_chart.png`**: Interactive 3-year performance trend tracking line visualization.
-
+* **Mutual_Fund_Performance_Dashboard.pbix:** Interactive 3-page business intelligence layer mapping the final analytics engine into production-ready visual modules (featuring Industry Overview, Alpha vs. Beta risk scatter matrices, and trailing performance curves).
 ---
 
 ## 🛠️ Performance & Risk Metrics Calculated
@@ -43,3 +43,8 @@ The composite ranking score (0-100) dynamically normalizes tracking positions ac
 | **Annualized Alpha** | 20% | Higher is Better |
 | **Expense Ratio** | 15% | Lower is Better (Inverse) |
 | **Maximum Drawdown** | 10% | Smaller Drop is Better (Inverse) |
+
+## 📊 Power BI Dashboard Pages
+* **Page 1: Industry Overview** — High-level overview of different fund houses.
+* **Page 2: Risk Analysis** — Alpha vs. Beta scatter plot and a clean risk ratio table.
+* **Page 3: Return Profile** — Bar charts comparing 1-year, 3-year, and 5-year returns side-by-side.
