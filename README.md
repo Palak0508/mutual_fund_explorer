@@ -48,3 +48,15 @@ The composite ranking score (0-100) dynamically normalizes tracking positions ac
 * **Page 1: Industry Overview** — High-level overview of different fund houses.
 * **Page 2: Risk Analysis** — Alpha vs. Beta scatter plot and a clean risk ratio table.
 * **Page 3: Return Profile** — Bar charts comparing 1-year, 3-year, and 5-year returns side-by-side.
+
+## 🧪 Day 6: Advanced Financial Analytics & Quant Risk Metrics
+
+Expanded the repository engine to process advanced risk tracking, investor behaviors, and automated portfolio evaluation pipelines:
+
+* **Quantitative Risk Engine (`var_cvar_report.csv`)**: Computes 95% Historical Value at Risk (VaR) and 95% Conditional Value at Risk (CVaR) to mathematically evaluate potential downside boundaries across 40 mutual fund schemes.
+* **Volatility Over Time Visualization (`rolling_sharpe_chart.png`)**: A dynamic line graph mapping the annualized rolling 90-day Sharpe Ratio timeline to identify performance consistency across key equity funds.
+* **Investor Behavior Metrics**:
+    * *Cohort Analysis*: Aggregates average SIP subscription levels and aggregate capital distributions segmented by client activation year.
+    * *Continuity Pipeline*: Tracks sequential payment dates to isolate transaction anomalies exceeding 35-day windows, identifying a portfolio churn risk rate of 90.54%.
+* **Sector Concentration Analysis**: Implemented the Herfindahl-Hirschman Index (HHI) mathematical model ($\sum (\text{weight}_i)^2$) across asset sectors to flag funds carrying high concentration vs. safe structural diversification.
+* **Interactive Fund Recommender (`recommender.py`)**: A standalone terminal utility that parses fund scorecards and returns localized top-3 fund recommendations optimized by Sharpe ratios for **Low**, **Moderate**, or **High** user risk-appetites.
